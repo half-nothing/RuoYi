@@ -162,6 +162,13 @@
                 <version>${ruoyi.version}</version>
             </dependency>
 
+            <!-- RFID管理 -->
+            <dependency>
+                <groupId>com.ruoyi</groupId>
+                <artifactId>ruoyi-rfid</artifactId>
+                <version>${ruoyi.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
@@ -172,6 +179,7 @@
         <module>ruoyi-quartz</module>
         <module>ruoyi-generator</module>
         <module>ruoyi-common</module>
+        <module>ruoyi-rfid</module>
     </modules>
     <packaging>pom</packaging>
 
